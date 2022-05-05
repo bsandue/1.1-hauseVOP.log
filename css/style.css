@@ -12,3 +12,15 @@
 .font3{
 	font-family: 'Roboto', sans-serif !important;
 }
+
+.text-accent{
+	color: #d4c17f !important;  /*accent color for the whole white */
+}
+
+body{
+	color: #fff; /*for the mobile version (from Galaxy Fold) */
+	font-size: 16px;
+	min-width: 280px;
+	background-color: #242B33;
+	overflow-x: hidden;  /*without scrolling on the x axis*/
+}
