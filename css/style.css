@@ -1,5 +1,6 @@
 @import "../libs/bootstrap5/bootstrap-reboot.min.css";
 @import "../libs/bootstrap5/bootstrap-grid.min.css";
+@import "../fonts/icomoon/style.css";
 
 .font1{
 	font-family: 'Playfair Display', serif !important;
