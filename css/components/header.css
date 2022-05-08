@@ -30,8 +30,35 @@ header{
 
 .header_contacts{
 	margin-top: 340px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between
 }
 
 .header_contacts-item{
+	color:#fff;
+	font-size: 18px;
+	text-decoration: none;
+	display: flex;
+	align-items:center;
+	transition: all .09s ease-out;
+}
 
+.header_contacts-item:hover{
+	color:#D4C17F;
+	
+}
+
+.header_contacts-item:hover [class*="icon-"]:before{
+	color:#D4C17F;
+	
+}
+
+.header_contacts-item [class*="icon-"]:before{  /* for all classes that start with icon-*/
+	margin-right: 15px;
+	transition: all .09s ease-out;
+}
+
+.header_contacts-item .icon-placeholder:before{
+	font-size: 21px;
 }
