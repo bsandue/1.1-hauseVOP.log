@@ -1,6 +1,7 @@
 @import "../libs/bootstrap5/bootstrap-reboot.min.css";
 @import "../libs/bootstrap5/bootstrap-grid.min.css";
 @import "../fonts/icomoon/style.css";
+@import "components/header.css";
 
 .font1{
 	font-family: 'Playfair Display', serif !important;
@@ -18,10 +19,21 @@
 	color: #d4c17f !important;  /*accent color for the whole white */
 }
 
+h1{
+	font-family: 'Playfair Display', serif !important;
+	font-size: 48px;
+	line-height: 64px;
+	font-weight: 700;
+	color: #D4C17F;
+
+}
+
 body{
 	color: #fff; /*for the mobile version (from Galaxy Fold) */
 	font-size: 16px;
 	min-width: 280px;
 	background-color: #242B33;
 	overflow-x: hidden;  /*without scrolling on the x axis*/
+	min-height: 900vh;
 }
+
