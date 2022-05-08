@@ -2,6 +2,7 @@
 @import "../libs/bootstrap5/bootstrap-grid.min.css";
 @import "../fonts/icomoon/style.css";
 @import "components/header.css";
+@import "components/navbar.css";
 
 .font1{
 	font-family: 'Playfair Display', serif !important;
@@ -25,7 +26,10 @@ h1{
 	line-height: 64px;
 	font-weight: 700;
 	color: #D4C17F;
+}
 
+a:hover{
+	color: #D4C17F;
 }
 
 body{
