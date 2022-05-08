@@ -62,3 +62,23 @@ header{
 .header_contacts-item .icon-placeholder:before{
 	font-size: 21px;
 }
+
+.header_mause-effect{
+	position: absolute;
+	top: 210px;
+	left: 50%;
+	transform: translateY(-50%);
+}
+
+.header_mause-effect-mause{
+	animation: downUp 0.9s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both; /*{ */
+}
+
+@keyframes downUp {
+	from{
+		transform: translateY(-10px);
+	}																											/*this is all for mouse animation */
+	 to{
+		transform: translateY(5px);
+	 }																											/* }*/
+}
