@@ -3,7 +3,8 @@
 @import "../fonts/icomoon/style.css";
 @import "components/header.css";
 @import "components/navbar.css";
-
+@import "components/section.css";
+@import "components/other.css";
 .font1{
 	font-family: 'Playfair Display', serif !important;
 }
