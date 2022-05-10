@@ -1,0 +1,24 @@
+.section{
+	position: relative;
+	padding: 180px 0;
+}
+
+.section_number{
+	position: absolute;
+	top: 0;
+	left: 258px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	opacity: .02;/*transparency of the Roman numeral*/
+	font-size: 400px;
+	line-height: 1;
+}
+
+.section_number_right{
+	right: 258px;
+	left: unset;
+}
+
+#facts{
+	padding: 120px 0;
+}
