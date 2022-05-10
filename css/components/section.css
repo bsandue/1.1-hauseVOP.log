@@ -3,6 +3,14 @@
 	padding: 180px 0;
 }
 
+.section_title{
+	font-size: 36px;
+	font-weight: 700;
+	color: #D4C17F;
+	padding-bottom: 100px;
+	font-family: 'Playfair Display', serif;
+}
+
 .section_number{
 	position: absolute;
 	top: 0;
@@ -12,6 +20,7 @@
 	opacity: .02;/*transparency of the Roman numeral*/
 	font-size: 400px;
 	line-height: 1;
+	z-index: -1; /* so that the Roman numeral does not overlap the photo*/
 }
 
 .section_number_right{
@@ -21,4 +30,8 @@
 
 #facts{
 	padding: 120px 0;
+}
+
+#our_rooms{
+	padding-top: 0;
 }

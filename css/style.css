@@ -5,6 +5,7 @@
 @import "components/navbar.css";
 @import "components/section.css";
 @import "components/other.css";
+@import "components/boostrap-skins.css";
 .font1{
 	font-family: 'Playfair Display', serif !important;
 }
@@ -31,6 +32,15 @@ h1{
 
 a:hover{
 	color: #D4C17F;
+}
+
+img{
+	width: 100%;
+}
+
+.link_unstyled{
+	color:#fff;
+	text-decoration: none;
 }
 
 body{
