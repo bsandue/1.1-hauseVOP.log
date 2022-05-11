@@ -6,6 +6,7 @@
 @import "components/section.css";
 @import "components/other.css";
 @import "components/boostrap-skins.css";
+@import "components/button.css";
 .font1{
 	font-family: 'Playfair Display', serif !important;
 }
@@ -58,6 +59,16 @@ img{
 .link_unstyled{
 	color:#fff;
 	text-decoration: none;
+}
+
+.fz13{
+	font-size: 13px !important;
+}
+.d-block{
+	display: block !important;
+}
+.text-center{
+	text-align: center;
 }
 
 body{

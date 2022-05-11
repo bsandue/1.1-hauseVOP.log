@@ -57,3 +57,32 @@
 	line-height: 28px;
 }
 
+.form{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.form_item{
+	width: calc( 50% - 15px);
+	margin-bottom: 35px;
+}
+
+.form-control{
+	width: 100%;
+	border: none;
+	background-color: rgba(255, 255, 255, .2);/*transparency for the button*/
+	transition: all .09s ease-out;
+	padding: 13px;
+	color: #fff; /*text color as you type*/
+}
+
+.form-control:focus{
+	outline: none;    /*the outline of the button when hovering was removed*/
+	background-color: rgba(255, 255, 255, .24);/*transparency for the button*/
+}
+
+.form-control::placeholder{
+	color: #BEBEBE;
+}
