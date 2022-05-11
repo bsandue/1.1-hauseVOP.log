@@ -22,12 +22,29 @@
 	color: #d4c17f !important;  /*accent color for the whole white */
 }
 
+.posr{
+	position: relative !important;
+}
+
+p{
+	line-height: 24px;
+	margin-bottom: 0;
+}
+
 h1{
 	font-family: 'Playfair Display', serif !important;
 	font-size: 48px;
 	line-height: 64px;
 	font-weight: 700;
 	color: #D4C17F;
+}
+
+h2{
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	color: #D4C17F;
+	font-family: 'Playfair Display', serif;
 }
 
 a:hover{
