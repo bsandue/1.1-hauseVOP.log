@@ -28,6 +28,11 @@
 	left: unset;
 }
 
+.section_number_middle{
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 #facts{
 	padding: 120px 0;
 }
