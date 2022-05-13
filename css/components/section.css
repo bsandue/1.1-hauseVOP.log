@@ -52,3 +52,9 @@
 		right: 8px;
 	}
 }
+
+@media (max-width: 992px){
+	.section_title{
+		text-align: center;
+	}
+}

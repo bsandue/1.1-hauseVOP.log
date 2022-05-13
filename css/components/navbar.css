@@ -6,6 +6,53 @@
 	padding: 30px 0;
 }
 
+.navbar_toggler{
+	position: relative;
+	z-index: 12;
+	display: none;
+	border: none;
+	width: 31px;
+	height: 25px;
+	background-color: transparent;
+}
+
+.navbar_toggler i {
+	position: absolute;
+	right: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+}
+
+.navbar_toggler i:nth-child(1) {
+	top: 0;
+}
+
+.navbar_toggler i:nth-child(2) {
+	top: 50%;
+	transform: translateY(-50%);
+	width: 80%;
+}
+
+.navbar_toggler i:nth-child(3) {
+	bottom: 0;
+}
+
+.navbar_toggler_active i:nth-child(1) {
+	top: 50%;
+	transform: rotate(45deg) translateY(-50%);
+}
+
+.navbar_toggler_active i:nth-child(2) {
+	display: none;
+}
+
+.navbar_toggler_active i:nth-child(3) {
+	bottom: unset;
+	top: 50%;
+	right: -1px; /*so that the cross becomes even - sided*/
+	transform: rotate(-45deg) translateY(-50%);
+}
 .navbar .container{
 	display: flex;
 	justify-content: space-between; /*to push on different sides */
@@ -30,5 +77,45 @@
 	letter-spacing: 0.05em;/*between letter distance }*/
 	transition: all .09s ease-out;
 	padding: 20px;
+}
+
+@media (max-width: 992px){
+	.mobile-wrap{
+		position: fixed;
+		background-color: #242B33;
+		box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.36);
+		top: -100vh;/*to hide the popup menu*/
+		left: 0;
+		width: 100%;
+		z-index: 9;
+		height: auto;
+		padding: 108px 0 40px 0;
+	}
+
+	.mobile-wrap_show{
+		top: 0;
+	}
+
+	.navbar_toggler{
+		display: block;
+		
+	}
+
+	.navbar_menu{
+		text-align: center;
+	}
+	
+	.navbar_menu li{
+		display: block !important;
+		margin-bottom: 20px;
+	}
+
+	.navbar_menu li:last-child{
+		margin-bottom: 0;
+	}
+
+	.navbar_menu-link{
+		font-size: 20px;
+	}
 }
 
