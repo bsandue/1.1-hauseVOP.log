@@ -83,3 +83,12 @@ header{
 		transform: translateY(5px);
 	 }																											/* }*/
 }
+
+@media (max-width: 1200px){
+	.header{
+		min-height: 700px;
+	}
+	.header_contacts{
+		margin-top: 230px;
+	}
+}
