@@ -54,6 +54,8 @@
 	line-height: 28px;
 }
 
+
+/*cta section*/
 .form{
 	display: flex;
 	flex-flow: row wrap;
@@ -83,6 +85,8 @@
 .form-control::placeholder{
 	color: #BEBEBE;
 }
+
+/*video section*/
 
 .video{
 	position: relative;
@@ -123,3 +127,8 @@
 	transform: translate(-50%, -50%) scale(1.09); /*when hovering, it increases*/
 }
 
+/*region section*/
+.map{
+	background-color: #626262;
+	height: 358px;
+}
