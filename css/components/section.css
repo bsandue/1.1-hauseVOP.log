@@ -33,15 +33,6 @@
 	transform: translateY(-50%);
 }
 
-#facts{
-	padding: 120px 0;
-}
-
-#our_rooms{
-	padding-top: 0;
-	padding-bottom: 0;
-}
-
 #cta:before{
 	content:'';
 	z-index: 0;
