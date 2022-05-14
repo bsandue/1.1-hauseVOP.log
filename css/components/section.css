@@ -58,3 +58,25 @@
 		text-align: center;
 	}
 }
+
+@media (max-width: 768px){
+	.section{
+		padding: 100px 0;
+	}
+
+	.section_number{
+		font-size: 260px;
+	}
+
+	.section_title{
+		margin-bottom: 40px;
+	}
+
+	#cta{
+		text-align: center;
+	}
+	
+	#cta p {
+		margin-bottom: 40px;
+	}
+}

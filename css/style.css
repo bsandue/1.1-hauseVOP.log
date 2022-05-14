@@ -89,6 +89,17 @@ body{
 	}
 }
 
+@media (max-width: 768px){
+	h1{
+		font-size: 38px;
+		line-height: 54px;
+	}
+
+	h2{
+		margin-bottom: 10px;
+	}
+}
+
 @media (min-width: 1200px){
 	.fz-lg-13{
 		font-size: 13px !important;
