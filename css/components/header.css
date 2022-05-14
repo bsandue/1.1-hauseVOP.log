@@ -93,6 +93,31 @@ header{
 	}
 }
 
-@media (max-width: 768px){
-	
+@media (max-width: 576px){
+	.header{
+		min-height: 435px;
+	}
+	.header:before{
+		background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), linear-gradient(0deg, rgba(36, 43, 51, 0.78), rgba(36, 43, 51, 0.78)),;
+	}
+
+	.header_mause-effect{
+		display: none;
+	}
+
+	.header_contacts{
+		margin-top: 89px;
+		padding-bottom: 15px;
+		flex-flow:column-reverse wrap;
+		justify-content: center;
+		align-items:content;
+
+	}
+
+	.header_contacts-item{
+		justify-content: center;
+		align-items:content;
+		margin-bottom: 15px;
+	}
 }
+
